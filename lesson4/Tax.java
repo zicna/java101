@@ -5,9 +5,9 @@ class Tax{
     static int customerCounter;
 
     Tax(double gi, String st, int depend){
-        grossIncome = gi;
-        state = st;
-        dependents = depend;
+        this.grossIncome = gi;
+        this.state = st;
+        this.dependents = depend;
         customerCounter++;
         System.out.println("Preparing the tax for customer#" + customerCounter);
     }
