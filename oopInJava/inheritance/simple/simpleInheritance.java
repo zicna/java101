@@ -1,3 +1,4 @@
+package inheritance.simple;
 class Employee{
     float salary = 40000;
 }

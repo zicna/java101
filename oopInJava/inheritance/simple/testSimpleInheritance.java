@@ -1,3 +1,4 @@
+package inheritance.simple;
 class Animal {
     void eat(){
         System.out.println("eating...");
